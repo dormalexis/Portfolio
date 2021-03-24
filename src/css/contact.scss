@@ -1,0 +1,21 @@
+.rocket {
+    transform:rotate(18deg);
+    position: absolute;
+    z-index:-1;
+    background-size: cover;
+    width: 50vh;
+    height: 50vh;
+    max-width: 90vh;
+    max-height: 90vh;
+    z-index: -1;
+    left: 0;
+  }
+  
+#contact {
+    margin: 5%;
+}
+
+.social {
+    width:40px;
+    margin-left:10px;
+}

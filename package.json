@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.1.10",
     "aos": "^2.3.4",
     "bootstrap": "^4.6.0",
+    "node-sass": "^4.0.0",
     "react": "^17.0.1",
     "react-aos": "^1.0.1",
     "react-bootstrap": "^1.4.3",
@@ -19,6 +20,7 @@
     "react-scripts": "4.0.1",
     "react-typing-animation": "^1.6.2",
     "react-typing-effect": "^2.0.4",
+    "simple-react-lightbox": "^3.6.4",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

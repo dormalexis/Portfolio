@@ -1,0 +1,54 @@
+.invisible {
+    opacity: 0;
+  }
+  
+.devicesWrapper {
+    background-color: black;
+    padding:8% 0%;
+}
+  
+  
+.button {
+    color:black;
+    background: white;
+    border:3px solid white;
+    padding:15px;
+    border-radius: 5px;
+    font-family: "Poppins";
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgb(117, 117, 117);
+    transition: ease 700ms;
+}
+  
+.button:hover {
+    box-shadow: 0px 7px 7px rgb(43, 42, 42);
+    background-color: white;
+    color:black;
+    border:3px solid black;
+}
+
+#child img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.inactive {
+  opacity: 0.4;
+  transform: translateY(-150px);
+}
+
+
+.actions {
+  margin-top: 5%;
+  width:50%;
+}
+
+#devices {
+  display:flex;
+  justify-content: space-around;
+}
+
+.active {
+  animation-name : appear;
+  animation-duration: 1500ms;
+}

@@ -1,16 +1,14 @@
-import angular from '../Images/skills/angular.png';
-import bootstrap from '../Images/skills/bootstrap.png';
-import css from '../Images/skills/css.svg';
-import dotnet from '../Images/skills/dotnet.png';
-import firebase from '../Images/skills/firebase.png';
-import flutter from '../Images/skills/flutter.png';
-import git from '../Images/skills/git.png';
-import html from '../Images/skills/html.svg';
-import illustrator from '../Images/skills/illustrator.png';
-import js from '../Images/skills/js.png';
-//import react from '../Images/skills/react.svg';
-import redux from '../Images/skills/redux.png';
-import react from '../Images/skills/react.svg';
+import angular from '../ressources/images/skills/angular.png';
+import bootstrap from '../ressources/images/skills/bootstrap.png';
+import css from '../ressources/images/skills/css.svg';
+import dotnet from '../ressources/images/skills/dotnet.png';
+import firebase from '../ressources/images/skills/firebase.png';
+import flutter from '../ressources/images/skills/flutter.png';
+import git from '../ressources/images/skills/git.png';
+import html from '../ressources/images/skills/html.svg';
+import js from '../ressources/images/skills/js.png';
+import redux from '../ressources/images/skills/redux.png';
+import react from '../ressources/images/skills/react.svg';
 
 export const SKILLS = [
     {
@@ -57,7 +55,7 @@ export const SKILLS = [
     },
     {
         id : "CSS",
-        name : "Css",
+        name : "CSS",
         picture : css,
         level : 75,
         color : "success"
@@ -75,14 +73,6 @@ export const SKILLS = [
         picture : git,
         level : 55,
         color : "success"
-
-    },
-    {
-        id : "ILLUSTRATOR",
-        name : "Illustrator",
-        picture : illustrator,
-        level : 55,
-        color : "warning"
 
     },
     {

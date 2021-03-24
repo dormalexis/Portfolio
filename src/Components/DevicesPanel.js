@@ -1,19 +1,17 @@
 import {React, useEffect} from 'react';
 
-import drone from '../Images/Drone.jpg';
-import camera from '../Images/D5300.png';
-import osmo from '../Images/Osmo.png';
-import waterproof from '../Images/Waterproof.png';
-import arrowLeft from '../Images/arrowLeft.svg';
-import arrowRight from '../Images/arrowRight.svg';
+import drone from '../ressources/images/devices/Drone.png';
+import camera from '../ressources/images/devices/D5300.png';
+import osmo from '../ressources/images/devices/Osmo.png';
+import waterproof from '../ressources/images/devices/Waterproof.png';
+import arrowLeft from '../ressources/images/icons/arrowLeft.svg';
+import arrowRight from '../ressources/images/icons/arrowRight.svg';
 
 
 import AOS from 'aos';
 import "aos/dist/aos.css";
-import popper from 'react-popper/dist/index.umd';
 
 const DevicesPanel = () => {
-
 
     useEffect(() => {
         AOS.init({

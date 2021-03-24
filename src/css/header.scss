@@ -1,0 +1,77 @@
+#brand {
+    width:120px;
+  }
+  
+.navbar {
+    margin: 0% 7%;
+    padding:3% 0px  !important;
+}
+  
+.navbar-expand-lg {
+    padding: 0;
+}
+  
+nav {
+    background: transparent;
+    z-index:5;
+}
+
+li a {
+    color:white;
+}
+  
+li a:hover {
+    animation: menu_hover 300ms;
+    color:black;
+}
+  
+#menu svg {
+    fill:white;
+    stroke: white;
+    width:20px;
+}
+  
+header {
+    z-index:0;
+}
+  
+#landing-header {
+    height: 70%;
+    background-color: #59cd8d;
+    background-image: linear-gradient(45deg, #59cd8d 0%, #bcba4a 100%);
+}
+  
+.website-header {
+    background-color: #FBDA61;
+    background-image: linear-gradient(-45deg, #FBDA61 0%, #f15757 100%);  
+    color:white;  
+}
+  
+.website-title {
+    background: linear-gradient(147deg,#720026,#ff7f51);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.developer-title { 
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.header-content {
+    padding:7%;
+}
+
+#name {
+    color:white;
+}
+  
+.development-header {
+    color:white;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}

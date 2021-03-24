@@ -1,0 +1,22 @@
+@keyframes menu_hover {
+    from {
+      color:white;
+    }
+  
+    to {
+      color:black;
+    }
+}
+
+@keyframes appear {
+  
+    from {
+      display:none;
+      opacity: .4;
+    }
+  
+    to {
+      display:block;
+      opacity: 1;
+    }
+  }

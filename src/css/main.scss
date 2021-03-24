@@ -1,0 +1,200 @@
+@import './dev.scss';
+@import './web.scss';
+@import './landing.scss';
+@import './animate.scss';
+@import './resources.scss';
+@import './header.scss';
+@import './devices.scss';
+@import './contact.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+h1, button {
+  font-family: "Poppins";
+}
+  
+p {
+  font-family: Raleway;
+}
+  
+
+  
+  .title {
+    text-align: center;
+    color:white;
+  }
+  
+  .description {
+    color:white;
+  }
+  
+  .title-bg-dark {
+    color:white;
+  }
+  
+  .title-bg-light {
+    color:black;
+  }
+  
+  
+
+  
+  
+  
+  @media screen and (max-width: 639px) {
+  
+    #brand {
+      width:40px;
+    }
+  
+    .service-image {
+      width: 120px;
+      height: 120px;
+    }
+    #parent {
+      z-index: 0;
+      margin:0% 0%;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      transform: rotate(0deg);
+      transition: transform 0.5s ease-in;
+    }
+  
+    .rocket {
+      opacity:0.5;
+    }
+  
+    .social {
+      width: 30px;
+      margin-left:10px;
+    }
+  
+    .control {
+      z-index:10;
+      width:30px;
+    }
+  
+    .children {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      transition: transform 0.5s ease-in;
+      top: -100px;   /* -child size/2 */
+      left: 100px;   /* parent size/2 - child size/2 */
+    }
+  
+    .drone {
+      width:100px;
+      height:50px;
+    }
+  
+    #child1 {
+      transform: rotate(0deg);
+      top: 150px;
+      left: 50px;
+    }
+  
+    #child2 {
+      transform: rotate(0deg);
+      top: 50px;
+      left: -50px;
+    }
+    
+    #child3 {
+      top: -50px;   /* -child size/2 */
+      left: 50px;
+    }
+    
+    #child4 {
+      transform: rotate(0deg);
+      top: 50px;
+      left: 150px;
+    }
+  
+    
+  }
+  
+  @media screen and (min-width: 640px) {
+  
+    #parent {
+      z-index: 0;
+      margin:0% 0%;
+      position: relative;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      transform: rotate(0deg);
+      transition: transform 0.5s ease-in;
+    }
+  
+    #child1 {
+      transform: rotate(0deg);
+      top: 350px;
+      left: 100px;
+    }
+  
+    .control {
+      z-index:10;
+      width:50px;
+    }
+    
+    #child2 {
+      transform: rotate(0deg);
+      top: 100px;
+      left: -100px;
+    }
+    
+    #child3 {
+      top: -100px;   /* -child size/2 */
+      left: 100px;
+    }
+    
+    #child4 {
+      transform: rotate(0deg);
+      top: 100px;
+      left: 300px;
+    }
+  
+    .children {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      transition: transform 0.5s ease-in;
+      top: -100px;   /* -child size/2 */
+      left: 100px;   /* parent size/2 - child size/2 */
+    }
+  
+    .drone {
+      width:200px;
+      height:100px;
+    }
+  }
+
+  
+  svg {
+    background: transparent;
+    stroke: white;
+  }
+  
+
+  
+  #webservices, #hard-skills, #soft-skills, #projects {
+    margin: 8% 5%;
+  }
+  
+  
+  
+  
+
+  
